@@ -15,4 +15,5 @@ const differentSquares = (matrix) => {
       }
     }
   }
+  return s.size;
 };
