@@ -6,10 +6,16 @@
  * The process stops immediately once there is only one non-zero digit left.
  */
 const rounders = (n) => {
-  let r = 0;
-  while (n > 10) {
-    n = Math.round(n / 10);
-    r++;
+  let r = 0; //1
+  while (n > 10) { //2
+    n = Math.round(n / 10); //4
+    r++; //1
   }
-  return n * Math.pow(10, r);
+  return n * Math.pow(10, r); // 4
 };
+/*
+  *T(15)n = 1 + 2 + 4 + 1 + 4
+  *T(15)n = 12
+  *T(15)n = 1
+  *O(15) = O(1)
+*/
