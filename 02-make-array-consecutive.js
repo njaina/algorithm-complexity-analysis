@@ -7,8 +7,3 @@
  */
 const makeArrayConsecutive = (sequence) =>
   Math.max(...sequence) - Math.min(...sequence) + 1 - sequence.length;
-/**
- *  9 => 6 
- * T2(r) = 6
- * O = 1
- */
