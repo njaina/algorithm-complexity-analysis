@@ -1,5 +1,6 @@
 /*
  * Given integers n, l and r, find the number of ways to represent n as a sum of two integers A and B such that l ≤ A ≤ B ≤ r.
+ * [[1, 2], [2,2], [1, 1], [1, 2], [2,2]]
  */
 const countSumOfTwoRepresentations = (n, l, r) => {
     let result = 0; // 1
