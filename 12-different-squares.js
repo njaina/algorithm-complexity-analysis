@@ -1,5 +1,6 @@
 /*
  * Given a rectangular matrix containing only digits, calculate the number of different 2 × 2 squares in it.
+ * [[1, 2], [2,2], [1, 1], [1, 2], [2,2]]
  */
 const differentSquares = (matrix) => {
   let s = new Set();
